@@ -74,6 +74,9 @@ p {
   object-position: left bottom;
   margin-bottom: -20px;
 }
+.second-col {
+  max-width: 800px;
+}
 .second-col span {
   display: block;
   text-align: right;
