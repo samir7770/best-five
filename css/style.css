@@ -109,7 +109,7 @@ p {
 }
 .player-col {
   background-color: black;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #434343;
   text-align: center;
 }
 .player-col .player-content {
@@ -172,7 +172,7 @@ p {
 }
 input {
   background-color: black;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #434343;
   padding: 7px;
   width: 55%;
   color: #ffffff;
@@ -202,7 +202,7 @@ input {
 
 .other-expense input {
   background-color: black;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #434343;
   padding: 7px;
   width: 55%;
 }
@@ -227,12 +227,12 @@ input {
   flex-wrap: wrap;
 }
 .total-expense h4 {
-  font-weight: 200;
+  font-weight: 700;
   width: 45%;
 }
 
 .footer {
-  border-top: 1px solid #fffaaa;
+  border-top: 1px solid #434343;
   background-color: rgba(0, 0, 0, 0.9);
   padding: 20px;
 }
