@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.text-white {
+  color: #fff;
+}
+.text-grey {
+  color: #b3b3b3;
+}
+.text-orange {
+  color: #ff5e19;
+}
+.btn-blue {
+  background-color: #015196;
+  color: #fff;
+  border: none;
+}
+.btn-blue:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.py-2 {
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 76px;
+  text-transform: capitalize;
+}
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+h5 {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+/* banner section CSS Start  */
+.banner {
+  background-color: black;
+  background-image: url(../img/soccer-goal-top.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  text-align: center;
+}
+.banner h1 {
+  font-family: "Berkshire Swash", cursive;
+}
+
+.banner .row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+.banner .row .first-col {
+  height: 490px;
+  display: flex;
+}
+.banner .row .first-col img {
+  width: 300px;
+  object-fit: contain;
+  object-position: left bottom;
+  margin-bottom: -20px;
+}
+.second-col span {
+  display: block;
+  text-align: right;
+}
+.banner .row .third-col {
+  height: 490px;
+  display: flex;
+}
+.banner .row .third-col img {
+  width: 200px;
+  object-fit: contain;
+  object-position: top left;
+}
+/* banner section CSS End  */
+
+/* Player Section CSS Start  */
+.players {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 100px 0;
+}
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+.players-row {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.player-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.player-col {
+  background-color: black;
+  border: 1px solid #b3b3b3;
+  text-align: center;
+}
+.player-col .player-content {
+  height: 160px;
+  padding: 20px;
+}
+.player-col img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.player-col .dot {
+  margin: 0 5px;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+}
+.player-col button {
+  padding: 8px;
+  display: block;
+  width: 100%;
+}
+/* Player Section CSS End  */
+/* Calculation Section CSS Start  */
+.sidebar-col {
+  margin-left: 20px;
+  text-align: center;
+}
+.selected-col {
+  background-color: black;
+  height: 365px;
+  padding: 20px;
+}
+.players-list {
+  padding: 30px;
+  text-align: left;
+}
+
+.calculation-col {
+  background-color: black;
+  padding: 20px;
+}
+.calculation-col {
+  margin-top: 17px;
+}
+.calculation-area {
+  margin-top: 20px;
+  text-align: left;
+}
+.per-player {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.per-player h4 {
+  font-weight: 200;
+  width: 45%;
+}
+input {
+  background-color: black;
+  border: 1px solid #b3b3b3;
+  padding: 7px;
+  width: 55%;
+  color: #ffffff;
+}
+.per-player button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px;
+}
+.players-expense {
+  margin-top: 20px;
+  display: flex;
+}
+.players-expense h4 {
+  font-weight: 200;
+}
+#expense-value {
+  margin-left: 10px;
+}
+.other-expense {
+  margin-top: 20px;
+}
+.other-expense h4 {
+  font-weight: 200;
+  width: 45%;
+}
+
+.other-expense input {
+  background-color: black;
+  border: 1px solid #b3b3b3;
+  padding: 7px;
+  width: 55%;
+}
+.other-expense button {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+
+.manager,
+.coach {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.total-expense {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.total-expense h4 {
+  font-weight: 200;
+  width: 45%;
+}
+
+.footer {
+  border-top: 1px solid #fffaaa;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+
+.footer h5 {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+/* Calculation Section CSS End  */
