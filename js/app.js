@@ -6,7 +6,7 @@ function setValue(name) {
   ol.appendChild(newLi);
 }
 
-document.getElementById("players").addEventListener("click", function (event) {
+const handleOnClick = (event) => {
   const name = event.target.parentNode.children[0].innerText;
   const nodeLength = document.querySelectorAll("#players-list li").length;
 
@@ -16,7 +16,8 @@ document.getElementById("players").addEventListener("click", function (event) {
     alert("Limit Exceeded");
   }
   const disable = (event.target.disabled = true);
-});
+};
+
 // Player Selection End
 function setAmount(elementId, amount) {
   const element = document.getElementById(elementId);
