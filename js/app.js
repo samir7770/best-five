@@ -15,6 +15,7 @@ document.getElementById("players").addEventListener("click", function (event) {
   } else {
     alert("Limit Exceeded");
   }
+  const disable = (event.target.disabled = true);
 });
 // Player Selection End
 function setAmount(elementId, amount) {
